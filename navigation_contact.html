@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contact Us</title>
+  </head>
+
+  <body>
+    <!--header-->
+    <nav class="container">
+      <img src="images/logowhite.jpg" id="logo" />
+
+      <ul class="navigation_list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="navigation_contact.html">Contact</a></li>
+        <li>
+          <a href="navigation_services.html">Our Services</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="form-container">
+      <form class="formcontainer" action="action_page.php">
+        <div class="form-group">
+          <label class="FName">Full Name</label>
+          <input
+            class="FFName"
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Full name.."
+          /><br />
+        </div>
+
+        <div class="form-group">
+          <label class="FEmail">Email</label>
+          <input
+            class="FFEmail"
+            type="email"
+            id="Email"
+            name="Email"
+            placeholder="Email.."
+          /><br />
+        </div>
+        <div class="form-group">
+          <label class="Ftext">Message</label>
+          <input
+            class="FFtext"
+            type="textarea"
+            id="textarea"
+            name="textarea"
+            placeholder="Text area.."
+          /><br />
+        </div>
+        <div class="button">
+          <button class="btn" type="submit" value="Submit">Submit</button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <!-- <div class="first">
+      <h4>About Us</h4>
+    </div> -->
+      <ul class="second">
+        <li>
+          <a
+            class="twitter-icon"
+            href="https://twitter.com/folklikestore"
+            target="_blank"
+          >
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a
+            class="instagram-icon"
+            href="https://instagram.com/folklikestore"
+            target="_blank"
+          >
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:thefolklikestore@gmail.com">
+            <ion-icon name="mail-outline"></ion-icon
+          ></a>
+        </li>
+        <li id="copy">&copy;Kafilat 2022</li>
+      </ul>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
